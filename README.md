@@ -1,6 +1,6 @@
-# 🎶 Proyecto Zion - Plataforma de Música Inteligente
+#  Proyecto Zion - Plataforma de Música Inteligente
 
-## 🙌 Propósito
+##  Propósito
 
 Zion es una aplicación web impulsada por IA que permite a cualquier persona subir una canción y obtener su letra, acordes y partituras de forma automática, gratuita y sin anuncios. El proyecto busca democratizar la música y facilitar tanto la creación como el aprendizaje musical.
 
@@ -8,7 +8,7 @@ Zion nace como respuesta a una necesidad real: muchas plataformas actuales limit
 
 ---
 
-## 🧭 Visión
+##  Visión
 
 Ser una plataforma inteligente que facilite el acceso a la música como lenguaje universal, ayudando a músicos amateurs, profesionales y entusiastas a aprender, crear, compartir y crecer.
 
@@ -38,7 +38,7 @@ Ser una plataforma inteligente que facilite el acceso a la música como lenguaje
 
 ---
 
-## ⚙️ Tecnologías Propuestas
+##  Tecnologías Propuestas
 
 | Módulo            | Herramientas                          |
 | ----------------- | ------------------------------------- |
@@ -52,7 +52,7 @@ Ser una plataforma inteligente que facilite el acceso a la música como lenguaje
 
 ---
 
-## 🧱 Estructura del Repositorio
+##  Estructura del Repositorio
 
 ```
 zion-app/
@@ -77,7 +77,7 @@ zion-app/
 
 ---
 
-## 🗺️ Roadmap Inicial
+##  Roadmap Inicial
 
 ### Etapa 1: MVP
 
@@ -109,7 +109,7 @@ zion-app/
 
 ---
 
-## 💡 Modelo de Sostenibilidad
+##  Modelo de Sostenibilidad
 
 ### Público objetivo:
 
@@ -128,7 +128,7 @@ Zion será siempre gratuito para lo esencial: extraer, aprender y compartir mús
 
 ---
 
-## 💬 Zion: el Asistente Inteligente
+## Zion: el Asistente Inteligente
 
 Zion es más que una IA. Es un compañero.
 
@@ -146,12 +146,5 @@ Zion es más que una IA. Es un compañero.
 
 ---
 
-## ✝️ Cierre
+##  Cierre
 
-Zion no es un negocio, es una misión. No busca competir, sino colaborar. No es solo código, sino propósito. Está dedicado a quienes aman la música, a quienes la necesitan, y a quien da vida a toda melodía: nuestro Creador.
-
-> "Porque de Él, por Él, y para Él, son todas las cosas." (Romanos 11:36)
-
-Gracias por formar parte del propósito.
-
-> Desarrollado con fe, propósito y pasión. ✨
