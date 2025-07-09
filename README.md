@@ -1,72 +1,157 @@
-# Zion: Plataforma de Música Inteligente
+# 🎶 Proyecto Zion - Plataforma de Música Inteligente
 
-**Zion** es una aplicación web que utiliza inteligencia artificial para ayudar a músicos de todos los niveles a extraer acordes, letras, partituras y aprender música de manera accesible, creativa y con propósito.
+## 🙌 Propósito
 
----
+Zion es una aplicación web impulsada por IA que permite a cualquier persona subir una canción y obtener su letra, acordes y partituras de forma automática, gratuita y sin anuncios. El proyecto busca democratizar la música y facilitar tanto la creación como el aprendizaje musical.
 
-## Propósito
-
-Facilitar la producción y aprendizaje musical, sin anuncios ni barreras económicas, con un asistente inteligente que motiva, enseña y acompaña al usuario.
+Zion nace como respuesta a una necesidad real: muchas plataformas actuales limitan el acceso con pagos, publicidad o acceso incompleto. Esta app está creada con un enfoque accesible, educativo y colaborativo.
 
 ---
 
-##  Funcionalidades Iniciales (MVP)
+## 🧭 Visión
 
-- Subir una canción y extraer acordes/letra
-- Ver resultados en pantalla (piano o guitarra)
-- Asistente Zion básico que explica y motiva
-- Exportar acordes/partitura en PDF o texto
+Ser una plataforma inteligente que facilite el acceso a la música como lenguaje universal, ayudando a músicos amateurs, profesionales y entusiastas a aprender, crear, compartir y crecer.
 
 ---
 
-## Tecnologías (propuesta inicial)
+## 🛠️ MVP (Versión Mínima Viable)
 
-- **Frontend:** React.js / Next.js
-- **Backend:** Node.js / Express
-- **IA:** Python (librosa, Spleeter, modelos IA musicales)
-- **Base de datos:** MongoDB / PostgreSQL
-- **Diseño:** TailwindCSS / Chakra UI
+### Funcionalidades:
 
----
+* Subida de canciones (MP3/WAV)
+* Separación de pistas (voz / instrumentos)
+* Extracción automática de acordes y letra
+* Visualización en pantalla de resultados
+* Descarga de PDF con acordes y letra
+* Acompañamiento textual del asistente Zion
 
-## Estado actual
+### Flujo de uso:
 
-Proyecto en fase de planificación y documentación. Se están definiendo las funciones clave y estructura base para el desarrollo.
-
----
-
-#  Roadmap de Zion (Etapas de desarrollo)
-
-## Etapa 1: MVP
--  Subida de archivo de audio
--  Extracción automática de acordes y letra
--  Visualización básica
--  Asistente Zion básico (texto estático)
-
-## Etapa 2: Edición y exportación
--  Exportar acordes como PDF
--  Seleccionar instrumento (guitarra, piano)
--  Corrección manual de acordes
-
-## Etapa 3: Plataforma educativa
--  Cursos por niveles
--  Seguimiento del asistente
--  Sistema de progreso por perfil
-
-## Etapa 4: Comunidad y red social
-...
-
+```
+1. El usuario entra a la app
+2. Sube un archivo de audio
+3. El backend con IA separa voz e instrumentos (Spleeter)
+4. Se detectan acordes y letra (BasicPitch + otras herramientas)
+5. Se muestran los resultados con ayuda textual de Zion
+6. El usuario puede exportar los resultados en PDF
+```
 
 ---
 
-## Autor
+## ⚙️ Tecnologías Propuestas
 
-Visión original por **Kou**, con propósito espiritual, educativo y creativo.  
-Construido con fe, intención y un deseo de servir.
+| Módulo            | Herramientas                          |
+| ----------------- | ------------------------------------- |
+| Frontend          | React.js + TailwindCSS + Vercel       |
+| Backend           | Node.js (Express) o FastAPI (Python)  |
+| IA Musical        | Python, Spleeter, Librosa, BasicPitch |
+| Exportación       | jsPDF o pdfkit                        |
+| Almacenamiento    | Firebase / temporal local             |
+| Asistente IA      | Chat Zion (JSON, JS o luego GPT API)  |
+| Control de código | Git + GitHub + GitHub Actions         |
 
 ---
 
-## Zion: Música como un estilo de vida
+## 🧱 Estructura del Repositorio
 
-> Este no es solo un proyecto.  
-> Es una herramienta para unir, educar, inspirar y llevar luz a través del arte sonoro.
+```
+zion-app/
+├── frontend/
+│   └── src/
+│       ├── App.jsx
+│       ├── UploadForm.jsx
+│       ├── ResultView.jsx
+│       └── ZionAssistant.jsx
+│
+├── backend/
+│   ├── index.js (o main.py)
+│   └── ia/
+│       ├── spleeter_process.py
+│       └── chord_detector.py
+│
+├── docs/
+│   └── arquitectura.md
+│
+└── README.md
+```
+
+---
+
+## 🗺️ Roadmap Inicial
+
+### Etapa 1: MVP
+
+* [x] Documentación de visión, arquitectura y flujo
+* [ ] Subida de audio desde frontend
+* [ ] Procesamiento backend con Spleeter y extracción de acordes
+* [ ] Mostrar resultados básicos
+* [ ] Exportar a PDF
+* [ ] Chat Zion básico
+
+### Etapa 2: Beta pública
+
+* [ ] Mejorar UI/UX
+* [ ] Almacenamiento en la nube
+* [ ] Soporte multiusuario (cuentas básicas)
+* [ ] Editor simple de acordes
+
+### Etapa 3: Plataforma educativa
+
+* [ ] Sistema de cursos
+* [ ] Progreso del estudiante
+* [ ] Zion como guía educativa interactiva
+
+### Etapa 4: Comunidad
+
+* [ ] Perfiles de usuario
+* [ ] Compartir canciones y creaciones
+* [ ] Feedback entre usuarios
+
+---
+
+## 💡 Modelo de Sostenibilidad
+
+### Público objetivo:
+
+* Músicos amateurs y profesionales
+* Productores, iglesias, instituciones sin fines de lucro
+* Estudiantes autodidactas
+
+### Fuentes de ingreso éticas (opcional):
+
+* Donaciones voluntarias (tipo Ko-fi / Patreon)
+* Plan educativo opcional con cursos premium
+* Patrocinios sociales de organizaciones musicales
+* Alianzas con conservatorios o instituciones públicas
+
+Zion será siempre gratuito para lo esencial: extraer, aprender y compartir música.
+
+---
+
+## 💬 Zion: el Asistente Inteligente
+
+Zion es más que una IA. Es un compañero.
+
+### Capacidades iniciales:
+
+* Acompañar con frases motivadoras y explicativas
+* Guiar paso a paso el uso de la plataforma
+* Recordar buenas prácticas musicales
+
+### Futuro:
+
+* Evaluar conocimientos teóricos (cuestionarios)
+* Recomendar ejercicios personalizados
+* Interactuar con voz o video
+
+---
+
+## ✝️ Cierre
+
+Zion no es un negocio, es una misión. No busca competir, sino colaborar. No es solo código, sino propósito. Está dedicado a quienes aman la música, a quienes la necesitan, y a quien da vida a toda melodía: nuestro Creador.
+
+> "Porque de Él, por Él, y para Él, son todas las cosas." (Romanos 11:36)
+
+Gracias por formar parte del propósito.
+
+> Desarrollado con fe, propósito y pasión. ✨
