@@ -35,7 +35,7 @@ Proyecto en fase de planificación y documentación. Se están definiendo las fu
 
 ---
 
-# 📍 Roadmap de Zion (Etapas de desarrollo)
+#  Roadmap de Zion (Etapas de desarrollo)
 
 ## Etapa 1: MVP
 -  Subida de archivo de audio
