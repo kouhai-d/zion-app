@@ -14,7 +14,7 @@ Ser una plataforma inteligente que facilite el acceso a la música como lenguaje
 
 ---
 
-## 🛠️ MVP (Versión Mínima Viable)
+## MVP (Versión Mínima Viable)
 
 ### Funcionalidades:
 
@@ -81,7 +81,7 @@ zion-app/
 
 ### Etapa 1: MVP
 
-* [x] Documentación de visión, arquitectura y flujo
+* [ ] Documentación de visión, arquitectura y flujo
 * [ ] Subida de audio desde frontend
 * [ ] Procesamiento backend con Spleeter y extracción de acordes
 * [ ] Mostrar resultados básicos
