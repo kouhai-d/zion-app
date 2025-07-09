@@ -146,5 +146,4 @@ Zion es más que una IA. Es un compañero.
 
 ---
 
-##  Cierre
 
